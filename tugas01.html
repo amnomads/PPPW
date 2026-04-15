@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Pesona Taman Nasional Komodo | Destinasi Wisata</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(145deg, #e0f2e9 0%, #c8e6df 100%);
+            padding: 30px 20px;
+            color: #1e2f2c;
+        }
+
+        /* Wadah konten utama menggunakan DIV */
+        .wisata-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.94);
+            border-radius: 42px;
+            box-shadow: 0 25px 45px rgba(0, 20, 10, 0.25);
+            overflow: hidden;
+            backdrop-filter: blur(0px);
+            transition: all 0.2s ease;
+        }
+
+        /* inner padding agar rapi */
+        .konten-utama {
+            padding: 2rem 2rem 2.5rem 2rem;
+        }
+
+        /* Judul utama */
+        .judul-wisata {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: #1b4d3e;
+            text-align: center;
+            letter-spacing: -0.5px;
+            border-bottom: 4px solid #f4b942;
+            display: inline-block;
+            width: auto;
+            margin: 0 auto 1rem auto;
+            padding-bottom: 8px;
+        }
+
+        .header-title {
+            text-align: center;
+            margin-bottom: 1.8rem;
+        }
+
+        /* Deskripsi singkat */
+        .deskripsi-tempat {
+            background: #fef9e6;
+            padding: 1.5rem 2rem;
+            border-radius: 36px;
+            margin-bottom: 2.5rem;
+            box-shadow: 0 5px 12px rgba(0, 0, 0, 0.05);
+            font-size: 1.08rem;
+            line-height: 1.55;
+            text-align: justify;
+            color: #2c3e2f;
+            border-left: 8px solid #f4b942;
+        }
+
+        .deskripsi-tempat p {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Galeri gambar: menampung 3 gambar dalam grid */
+        .galeri-wisata {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 1rem;
+        }
+
+        /* card gambar */
+        .card-gambar {
+            background: white;
+            border-radius: 28px;
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.25s ease, box-shadow 0.3s;
+            flex: 1;
+            min-width: 260px;
+            max-width: 340px;
+            text-align: center;
+            padding: 1rem 1rem 1.2rem 1rem;
+        }
+
+        .card-gambar:hover {
+            transform: translateY(-7px);
+            box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        /* styling gambar dengan seluruh atribut yang diminta */
+        .wisata-img {
+            border-radius: 20px;
+            display: block;
+            margin: 0 auto;
+            object-fit: cover;
+            transition: all 0.2s;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .caption {
+            margin-top: 12px;
+            font-weight: 600;
+            color: #2b5e42;
+            background: #f2f7f2;
+            display: inline-block;
+            padding: 5px 14px;
+            border-radius: 60px;
+            font-size: 0.85rem;
+            letter-spacing: 0.3px;
+        }
+
+        /* footer kecil */
+        .info-tambahan {
+            text-align: center;
+            margin-top: 2.5rem;
+            font-size: 0.8rem;
+            color: #4e6b5e;
+            border-top: 1px dashed #bfd8ce;
+            padding-top: 1.5rem;
+        }
+
+        @media (max-width: 780px) {
+            .konten-utama {
+                padding: 1.5rem;
+            }
+            .judul-wisata {
+                font-size: 1.9rem;
+            }
+            .deskripsi-tempat {
+                padding: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- DIV sebagai wadah konten utama (seluruh konten terbungkus div) -->
+    <div class="wisata-container">
+        <div class="konten-utama">
+            
+            <!-- Bagian Judul -->
+            <div class="header-title">
+                <h1 class="judul-wisata">🦎 Taman Nasional Komodo</h1>
+                <p style="text-align: center; font-style: italic; color: #3f6b58;">Warisan Dunia & Keajaiban Purba Nusantara</p>
+            </div>
+
+            <!-- Deskripsi Singkat Mengenai Tempat yang Dipilih -->
+            <div class="deskripsi-tempat">
+                <p>📍 <strong>Taman Nasional Komodo</strong> terletak di Kepulauan Nusa Tenggara Timur, Indonesia. Kawasan ini terkenal sebagai habitat asli <strong>Komodo</strong> (<em>Varanus komodoensis</em>), reptil purba terbesar di dunia yang hanya bisa ditemukan di sini. Selain satwa endemik, taman nasional ini menawarkan lanskap savana yang dramatis, perbukitan kering, serta keindahan bawah laut yang masuk dalam salah satu pusat keanekaragaman hayati laut terbaik di dunia.</p>
+                <p>🐉 Pengunjung dapat menyaksikan secara langsung kegarangan komodo di alam liar, trekking di Pulau Rinca dan Pulau Komodo, snorkeling di <strong>Pantai Pink</strong> (salah satu dari tujuh pantai berpasir pink di dunia), serta menyelami terumbu karang yang memukau. Ditetapkan sebagai Situs Warisan Dunia UNESCO pada tahun 1991, destinasi ini memadukan petualangan, edukasi, dan pesona alam yang luar biasa.</p>
+                <p>🌏 <strong>Keunikan lain:</strong> arus laut yang deras menciptakan ekosistem unik, dijumpai juga rusa timor, babi hutan, dan berbagai spesies burung endemik. Taman Nasional Komodo benar-benar surga bagi pecinta alam dan fotografer.</p>
+            </div>
+
+            <!-- Menampilkan minimal 3 Gambar yang disimpan di dalam folder images 
+                 Setiap tag <img> menggunakan keseluruhan atribut yang umum dipelajari:
+                 src, alt, width, height, title, loading, (plus decoding sebagai tambahan sesuai materi)
+            -->
+            <div class="galeri-wisata">
+                
+                <!-- Gambar 1 : Komodo di savana -->
+                <div class="card-gambar">
+                    <img class="wisata-img"
+                         src="images/komodo-savana.jpg"
+                         alt="Komodo dewasa berdiri di padang savana kering dengan latar bukit"
+                         width="320"
+                         height="210"
+                         title="Komodo purba di habitat asli Taman Nasional Komodo"
+                         loading="lazy"
+                         decoding="async"
+                         style="border: 2px solid #e0cba0;">
+                    <div class="caption">🦎 Komodo raksasa di savana</div>
+                </div>
+                
+                <!-- Gambar 2 : Pemandangan perbukitan dan laut biru -->
+                <div class="card-gambar">
+                    <img class="wisata-img"
+                         src="images/pulau-komodo-panorama.jpg"
+                         alt="Pemandangan udara perbukitan hijau kering dan laut biru kehijauan di Taman Nasional Komodo"
+                         width="320"
+                         height="210"
+                         title="Keindahan alam Pulau Komodo – hamparan bukit dan laut biru jernih"
+                         loading="lazy"
+                         decoding="async"
+                         style="border: 2px solid #bdd4ce;">
+                    <div class="caption">🏝️ Bukit savana & laut biru</div>
+                </div>
+                
+                <!-- Gambar 3 : Pantai Pink yang ikonik -->
+                <div class="card-gambar">
+                    <img class="wisata-img"
+                         src="images/pantai-pink-komodo.jpg"
+                         alt="Garis pantai berpasir merah muda dengan air laut jernih dan perahu wisata"
+                         width="320"
+                         height="210"
+                         title="Pantai Pink, keajaiban pasir merah muda yang langka di dunia"
+                         loading="lazy"
+                         decoding="async"
+                         style="border: 2px solid #f3cfb3;">
+                    <div class="caption">🌸 Pantai Pink – pesona pasir merah jambu</div>
+                </div>
+            </div>
+
+            <!-- informasi catatan gambar dan atribut img -->
+            <div class="info-tambahan">
+                <span>📸 3 gambar tersimpan di folder <strong style="background:#e2efea; padding:3px 8px; border-radius:40px;">📁 images/</strong> | 
+                Atribut &lt;img&gt; lengkap: <strong>src, alt, width, height, title, loading, decoding</strong> + style tambahan</span><br>
+                <span style="font-size:0.75rem;">✨ Nikmati keindahan Taman Nasional Komodo — destinasi wajib pecinta alam & satwa purba.</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- catatan tambahan untuk keperluan instruksi: 
+         Seluruh gambar di referensikan dari folder 'images' (contoh: images/komodo-savana.jpg, images/pulau-komodo-panorama.jpg, images/pantai-pink-komodo.jpg)
+         Pastikan file gambar tersedia pada direktori yang sama dengan file HTML di dalam folder 'images'.
+         Atribut yang digunakan: src, alt, width, height, title, loading="lazy", decoding="async", dan properti inline style untuk border.
+         Ini memenuhi seluruh atribut umum yang diajarkan dalam materi elemen <img>.
+    -->
+</body>
+</html>
